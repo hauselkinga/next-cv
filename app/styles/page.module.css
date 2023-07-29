@@ -1,0 +1,9 @@
+.center {
+  background-image: url("../../public/grass.jpg");
+  color: #aefa9b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
