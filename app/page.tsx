@@ -1,5 +1,6 @@
 import styles from './styles/page.module.css'
 import About from './about'
+import Github from './github'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <p>In case You are looking for an enthusiastic junior developer, please don't hesitate to reach out to me!</p>
       </div>
       <About></About>
+      <Github></Github>
     </div>
   )
 }
