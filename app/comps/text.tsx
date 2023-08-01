@@ -15,19 +15,25 @@ export default function Text() {
     
     if (element && scrollY > screen.height) {
       element.innerHTML = `
-      <p>pls contact me</p>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-square-github"></i>
+      <i class="fa-solid fa-envelope"></i>
       `
     } else if(element) {
-      element.innerHTML = `
-      <h1>Hello I am Kinga</h1>
-      <h2>Junior Full-Stack Developer</h2>`
+      element.innerHTML =
+      `<div>
+        <h1>Hello I am Kinga</h1>
+        <h2>Junior Full-Stack Developer</h2>
+      </div>`
     }
   }
 
   return (
     <div id='text-container' className={styles.container}>
-      <h1>Hello I am Kinga</h1>
-      <h2>Junior Full-Stack Developer</h2>
+      <div>
+        <h1>Hello I am Kinga</h1>
+        <h2>Junior Full-Stack Developer</h2>
+      </div>
     </div>
   )
 }

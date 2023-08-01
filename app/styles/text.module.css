@@ -4,9 +4,12 @@
   width: 100vw;
   position: fixed;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   top: 0;
   z-index: -1;
+}
+
+.container i {
+  font-size: 100px;
 }
