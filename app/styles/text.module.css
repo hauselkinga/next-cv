@@ -1,13 +1,12 @@
-.center {
-  background-image: url("../../public/grass.jpg");
+.container {
   color: #aefa9b;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
   top: 0;
   z-index: -1;
 }
