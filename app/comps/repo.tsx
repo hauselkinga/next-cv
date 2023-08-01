@@ -1,4 +1,4 @@
-import styles from './styles/repo.module.css'
+import styles from '../styles/repo.module.css'
 
 export default function Repo() {
   return (

@@ -1,4 +1,4 @@
-import styles from './styles/github.module.css'
+import styles from '../styles/github.module.css'
 import Repo from './repo'
 
 export default function Github() {

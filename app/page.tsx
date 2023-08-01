@@ -1,6 +1,6 @@
 import styles from './styles/page.module.css'
-import About from './about'
-import Github from './github'
+import About from './comps/about'
+import Github from './comps/github'
 
 export default function Home() {
   return (
