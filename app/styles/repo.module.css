@@ -1,0 +1,15 @@
+.container {
+  height: 6rem;
+  width: 20rem;
+  border: 2px solid #aefa9b;
+  border-radius: .5rem;
+  padding: 1rem;
+  transition: all 0.25s;
+}
+
+.container:hover {
+  background-color: #aefa9b;
+  color: rgb(30, 30, 30);
+  height: 8rem;
+  width: 22rem;
+}

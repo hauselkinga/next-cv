@@ -1,10 +1,10 @@
 import styles from '../styles/repo.module.css'
 
-export default function Repo() {
+export default function Repo(props: any) {
   return (
     <div className={styles.container}>
-      <div>Repo Name</div>
-      <div>Total commits</div>
+      <div>{props.name}</div>
+      <div>{props.commits}</div>
     </div>
   )
 }

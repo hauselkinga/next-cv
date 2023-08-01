@@ -6,10 +6,10 @@ export default function Github() {
     <div className={styles.container}>
       <div>My GitHub Repositories</div>
       <div className={styles.grid}>
-        <Repo></Repo>
-        <Repo></Repo>
-        <Repo></Repo>
-        <Repo></Repo>
+        <Repo name="greenbay-homework-project" commits="84" key={1}></Repo>
+        <Repo name="angular-weather-app" commits="11" key={2}></Repo>
+        <Repo name="angular-clips" commits="32" key={3}></Repo>
+        <Repo name="HPlusSport-LinkedinLearning" commits="31" key={4}></Repo>
       </div>
     </div>
   )

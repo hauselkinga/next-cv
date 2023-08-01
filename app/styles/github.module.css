@@ -4,13 +4,17 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: black;
+  background-color: rgb(30, 30, 30);
   color: white;
   margin-bottom: 100vh;
 }
 
 .grid {
+  height: 80%;
+  width: 80%;
   display: grid;
+  justify-items: center;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 3rem;
