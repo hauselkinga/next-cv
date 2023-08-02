@@ -1,39 +1,47 @@
 "use client";
 import styles from "../styles/text.module.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Text() {
+  const [intro, setIntro] = useState('hide');
+  const [contact, setContact] = useState('hide');
+
   useEffect(() => {
+    if (scrollY > screen.height) {
+      setIntro('hide');
+      setContact('');
+    } else {
+      setIntro('');
+      setContact('hide');
+    }
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   });
 
-  const handleScroll = (e: Event) => {
-    const element = (e.target as Document).getElementById("text-container");
-
-    if (element && scrollY > screen.height) {
-      (element.firstChild as HTMLElement).classList.add("hide");
-      (element.lastChild as HTMLElement).classList.remove("hide");
-    } else if (element) {
-      (element.firstChild as HTMLElement).classList.remove("hide");
-      (element.lastChild as HTMLElement).classList.add("hide");
-    }
+  const handleScroll = () => {
+    if (scrollY > screen.height) {
+      setIntro('hide');
+      setContact('');
+    } else {
+      setIntro('');
+      setContact('hide');
+    } 
   };
 
   return (
     <div id="text-container" className={styles.container}>
-      <section>
+      <section className={intro}>
           <h1>Hello I am Kinga</h1>
           <h2>Junior Full-Stack Developer</h2>
       </section>
-      <section className="hide">
+      <section className={contact}>
         <div>
-          <a href="https://www.linkedin.com/in/kinga-hausel/">
+          <a href="https://www.linkedin.com/in/kinga-hausel/" target="_blank">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/hauselkinga">
+          <a href="https://github.com/hauselkinga" target="_blank">
             <i className="fa-brands fa-square-github"></i>
           </a>
           <a href="mailto:hausel.kinga@gmail.com">
