@@ -37,3 +37,8 @@
   transform: scale(1.2);
   color: #e7f5bf;
 }
+
+.container *::selection {
+  background: #aefa9b;
+  color: #1e1e1e;
+}

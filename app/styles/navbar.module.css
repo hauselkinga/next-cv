@@ -12,3 +12,8 @@
 .container a {
   padding: 0 1rem;
 }
+
+
+.container *::selection {
+  background: none;
+}

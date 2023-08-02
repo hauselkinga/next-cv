@@ -10,6 +10,10 @@
   width: 7rem;
 }
 
+.container img::selection {
+  background: none;
+}
+
 .container span {
   margin-top: 1rem;
 }
