@@ -11,14 +11,21 @@
   z-index: -1;
 }
 
+.container h1 {
+  font-size: 4rem;
+}
+
+.container h2 {
+  font-size: 3rem;
+}
+
 .container div {
   display: flex;
 }
 
 .container a {
   display: block;
-  height: 20vh;
-  width: 20vw;
+  margin: 5rem;
 }
 
 .container i {

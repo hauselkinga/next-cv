@@ -33,7 +33,7 @@ export default function Text() {
   return (
     <div id="text-container" className={styles.container}>
       <section className={intro}>
-          <h1>Hello I am Kinga</h1>
+          <h1>Hello, I am Kinga</h1>
           <h2>Junior Full-Stack Developer</h2>
       </section>
       <section className={contact}>
