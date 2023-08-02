@@ -5,6 +5,33 @@
   align-items: center;
   height: 100vh;
   margin-top: 100vh;
-  background-color: rgb(30, 30, 30);
+  padding: 3rem;
+  font-size: 1.5rem;
+  background: rgb(30, 30, 30);
+  background: linear-gradient(to top, rgb(40, 40, 40), rgb(30,30,30));
   color: white;
+  text-align: justify;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+
+.grid {
+  height: 80%;
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.technologies {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }

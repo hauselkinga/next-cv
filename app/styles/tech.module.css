@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  height: 7rem;
+  width: 7rem;
+}
+
+.container span {
+  margin-top: 1rem;
+}
