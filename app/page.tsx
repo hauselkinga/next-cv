@@ -11,7 +11,7 @@ export default function Home() {
       <Text></Text>
       <About></About>
       <Github></Github>
-      <Contact></Contact>
+      <br id='contacts' />
     </div>
   )
 }

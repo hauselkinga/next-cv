@@ -3,7 +3,7 @@ import Tech from './tech'
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div id='about' className={styles.container}>
       <h1>About</h1>
       <div className={styles.grid}>
         <section className={styles.text}>

@@ -1,14 +1,14 @@
-import styles from '../styles/navbar.module.css'
+import styles from "../styles/navbar.module.css";
 
 export default function Navbar() {
   return (
     <div className={styles.container}>
-      <div>Kinga Hausel</div>
+      <a href="#">Kinga Hausel</a>
       <div>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contacts</a>
       </div>
     </div>
-  )
+  );
 }

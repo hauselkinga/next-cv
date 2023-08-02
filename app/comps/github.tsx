@@ -3,7 +3,7 @@ import Repo from './repo'
 
 export default function Github() {
   return (
-    <div className={styles.container}>
+    <div id='projects' className={styles.container}>
       <div>My GitHub Repositories</div>
       <div className={styles.grid}>
         <Repo name="greenbay-homework-project" commits="84" key={1}></Repo>
