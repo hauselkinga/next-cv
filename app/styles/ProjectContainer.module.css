@@ -15,6 +15,10 @@
   color: #1e1e1e;
 }
 
+.container h1 {
+  font-size: 3rem;
+}
+
 .flex {
   height: 75%;
   width: 100%;
@@ -23,8 +27,14 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
   .flex {
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container h1 {
+    font-size: 2.5rem;
   }
 }
