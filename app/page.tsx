@@ -1,8 +1,7 @@
 import Background from './comps/background'
 import Text from './comps/text'
 import About from './comps/about'
-import Github from './comps/github'
-import Contact from './comps/background'
+import ProjectContainer from './comps/ProjectContainer'
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       <Background></Background>
       <Text></Text>
       <About></About>
-      <Github></Github>
+      <ProjectContainer></ProjectContainer>
       <section id='contacts' />
     </div>
   )

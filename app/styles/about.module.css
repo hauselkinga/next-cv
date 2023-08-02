@@ -23,7 +23,7 @@
 }
 
 .grid {
-  height: 80%;
+  height: 75%;
   display: grid;
   padding: 1rem;
   grid-template-columns: 1fr 1fr;
@@ -39,4 +39,28 @@
   gap: 2rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    height: fit-content;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .technologies {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container h1 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    font-size: 1.25rem;
+  }
 }

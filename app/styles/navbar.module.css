@@ -13,7 +13,12 @@
   padding: 0 1rem;
 }
 
-
 .container *::selection {
   background: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    display: none;
+  }
 }

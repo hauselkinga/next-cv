@@ -15,13 +15,16 @@
   color: #1e1e1e;
 }
 
-.grid {
-  height: 80%;
-  width: 80%;
-  display: grid;
-  justify-items: center;
+.flex {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .flex {
+    flex-direction: column;
+  }
 }

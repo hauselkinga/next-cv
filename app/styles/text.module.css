@@ -42,3 +42,28 @@
   background: #aefa9b;
   color: #1e1e1e;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container div {
+    flex-direction: column;
+  }
+
+  .container a {
+    display: block;
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container i {
+    font-size: 5rem;
+  }
+
+  .container h1 {
+    font-size: 2.5rem;
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+  }
+}
