@@ -31,12 +31,12 @@ export default function BackgroundContent() {
   };
 
   return (
-    <div id="text-container" className={styles.container}>
-      <section className={intro}>
+    <section id="text-container" className={styles.container}>
+      <article className={intro}>
           <h1>Hello, I am Kinga</h1>
           <h2>Junior Full-Stack Developer</h2>
-      </section>
-      <section className={contact}>
+      </article>
+      <article className={contact}>
         <div>
           <a href="https://www.linkedin.com/in/kinga-hausel/" target="_blank">
             <i className="fa-brands fa-linkedin"></i>
@@ -48,7 +48,7 @@ export default function BackgroundContent() {
             <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
-      </section>
-    </div>
+      </article>
+    </section>
   );
 }
