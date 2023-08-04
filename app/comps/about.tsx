@@ -1,5 +1,5 @@
-import styles from '../styles/about.module.css'
-import Tech from './tech'
+import styles from '../styles/About.module.css'
+import Tech from './Tech'
 
 export default function About() {
   return (

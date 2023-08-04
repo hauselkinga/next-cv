@@ -1,5 +1,5 @@
 import styles from "../styles/ProjectContainer.module.css";
-import Repo from "./repo";
+import Repo from "./Repo";
 
 export default function Github() {
   return (

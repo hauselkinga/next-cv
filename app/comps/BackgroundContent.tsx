@@ -1,8 +1,8 @@
 "use client";
-import styles from "../styles/text.module.css";
+import styles from "../styles/BackgroundContent.module.css";
 import { useEffect, useState } from "react";
 
-export default function Text() {
+export default function BackgroundContent() {
   const [intro, setIntro] = useState('hide');
   const [contact, setContact] = useState('hide');
 
