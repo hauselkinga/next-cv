@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../styles/repo.module.css'
+import styles from '../styles/Repo.module.css'
 
 export default function Repo(props: any) {
   return (

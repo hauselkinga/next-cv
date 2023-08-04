@@ -1,4 +1,4 @@
-import styles from '../styles/tech.module.css'
+import styles from '../styles/Tech.module.css'
 
 export default function Tech(props: any) {
   return (

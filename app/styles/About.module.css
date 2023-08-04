@@ -1,20 +1,19 @@
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
   margin-top: 100vh;
   padding: 3rem;
-  font-size: 1.5rem;
   background: rgb(30, 30, 30);
-  background: linear-gradient(to top, rgb(40, 40, 40), rgb(30,30,30));
+  background: linear-gradient(to top, rgb(40, 40, 40), rgb(30, 30, 30));
   color: white;
-  text-align: justify;
 }
 
 .container h1 {
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .container *::selection {
@@ -31,7 +30,15 @@
 
 .text {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text p {
+  margin: 1rem 0;
 }
 
 .technologies {
@@ -45,7 +52,7 @@
   .container {
     height: fit-content;
   }
-  
+
   .grid {
     display: flex;
     flex-direction: column;

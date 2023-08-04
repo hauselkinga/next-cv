@@ -1,13 +1,13 @@
-import Background from './comps/background'
-import Text from './comps/text'
-import About from './comps/about'
+import Background from './comps/Background'
+import BackgroundContent from './comps/BackgroundContent'
+import About from './comps/About'
 import ProjectContainer from './comps/ProjectContainer'
 
 export default function Home() {
   return (
     <div>
       <Background></Background>
-      <Text></Text>
+      <BackgroundContent></BackgroundContent>
       <About></About>
       <ProjectContainer></ProjectContainer>
       <section id='contacts' />
